@@ -1,0 +1,65 @@
+#portfolio {
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#portfolio .heading {
+  color: #2C3E50;
+}
+
+#portfolio .shape .left {
+  width: 90px;
+  height: 5px;
+  background-color: #2C3E50;
+}
+
+#portfolio .shape .right {
+  width: 90px;
+  height: 5px;
+  background-color: #2C3E50;
+
+}
+
+
+#portfolio .item {
+  position: relative;
+}
+
+#portfolio .item .show {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #1ABC9C;
+  z-index: 1;
+  opacity: 0;
+  transition: all .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+}
+
+#portfolio .item:hover .show {
+  opacity: .9;
+}
+
+
+#clickShow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 138, 255, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clickShow .image {
+  width: 600px;
+}

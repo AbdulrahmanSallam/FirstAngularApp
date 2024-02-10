@@ -1,0 +1,21 @@
+#about {
+  margin-top: 70px;
+  padding-block: 209px;
+  padding-inline: 180px;
+  background-color: #1ABC9C;
+  color: white;
+}
+
+
+#about .shape .left {
+  width: 90px;
+  height: 5px;
+  background-color: #fff;
+}
+
+#about .shape .right {
+  width: 90px;
+  height: 5px;
+  background-color: #fff;
+
+}

@@ -1,0 +1,54 @@
+#contact {
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#contact .heading {
+  color: #2C3E50;
+  margin-bottom: 2rem;
+}
+
+
+#contact .shape .left {
+  width: 90px;
+  height: 5px;
+  background-color: #2C3E50;
+}
+
+#contact .shape .right {
+  width: 90px;
+  height: 5px;
+  background-color: #2C3E50;
+}
+
+#form {
+  width: 60%;
+  margin: auto;
+}
+
+
+#contact .inp {
+  margin-block: 30px;
+}
+
+
+#contact .inp label {
+  color: #1ABC9C;
+}
+
+#contact .inp input {
+  width: 100%;
+  display: block;
+  appearance: none;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  border-bottom: 1px solid #DEE2E6;
+}
+
+#contact #form button {
+  background: #1ABC9C;
+  color: white;
+  margin-bottom: 20px;
+}

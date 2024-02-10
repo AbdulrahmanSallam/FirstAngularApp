@@ -1,0 +1,26 @@
+/* main */
+#main {
+  background-color: #1ABC9C;
+  color: white;
+  margin-top: 80px;
+  padding-block: 5rem;
+}
+
+#main .img {
+  width: 250px;
+  margin-bottom: 1.5rem;
+}
+
+#main .shape .left {
+  width: 90px;
+  height: 5px;
+  background-color: #fff;
+
+}
+
+#main .shape .right {
+  width: 90px;
+  height: 5px;
+  background-color: #fff;
+
+}

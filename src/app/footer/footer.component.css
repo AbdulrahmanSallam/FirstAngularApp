@@ -1,0 +1,21 @@
+/* footer */
+
+footer {
+  background-color: #2C3E50;
+  color: white;
+}
+
+footer .iconLinks i {
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 10px;
+  margin-inline-end: 20px;
+}
+
+footer .copyRight {
+  background-color: #1A252F;
+}
