@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="row g-5 overflow-hidden">
-      <div *ngFor="let url of imagesSrc;index as i" class="col-md-4">
+      <div  class="col-md-4 " *ngFor="let url of imagesSrc;index as i">
         <div class="item">
           <img [src]="url" class="img img-fluid d-block rounded-3" alt="image">
           <div role="button" (click)="showBox(i)" class="show rounded-3 ">

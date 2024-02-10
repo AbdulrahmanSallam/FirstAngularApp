@@ -6,6 +6,7 @@
 
 .navbar a {
   color: white;
+
 }
 
 .navbar .activeLink {
@@ -17,4 +18,6 @@
   margin-inline: 10px;
   border-radius: 10px;
   text-transform: uppercase;
+  width: fit-content;
+  padding: 10px;
 }
